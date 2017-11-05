@@ -46,7 +46,7 @@ var start=function()
         flagForStartOrStop=1;
     }
 }
-var setTime=function()
+function setTime()
 {
     var idForClock=setInterval(function()
     {
