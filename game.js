@@ -3,7 +3,6 @@ window.onload=function()
 {
     initialize();
     document.getElementById("startButton").onclick=start;
-    setTime();
     document.getElementById("gameArea").addEventListener("click",check);
 }
 
@@ -32,6 +31,7 @@ var start=function()
    if(flagForStartOrStop==0)
     {
         document.getElementById("gameOver").value="Playing";
+        setTime();
         setRandom();
         flagForStartOrStop=1;
     }
