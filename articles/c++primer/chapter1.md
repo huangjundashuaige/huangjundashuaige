@@ -5,7 +5,7 @@ first thing first,i have read the first few chapters of this book many month ago
 as far as i know just before this evening,
 i still think declaration was just like 
 <br>
-` int a `
+`int a`
 <br>
 and definition was like
 <br>
