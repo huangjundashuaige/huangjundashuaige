@@ -96,4 +96,13 @@ li,#instruction
     border:1px solid #E7E7E7;
     cursor: pointer;
     margin-bottom: 10px;
+};
+
+#footer
+{
+    padding: 0px;
+    margin: 0px;
+    width: 100%;
+    text-align: center;
+    top:-200px;
 }
