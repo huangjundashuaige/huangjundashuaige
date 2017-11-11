@@ -31,3 +31,6 @@ and the result is
 0
 but i dont think it will do lot damage for acutually the problem use a temperary variable for stroging the result of expression and you will get a 1,
 the potential danger may only appear in the compare expression i guess.
+
+##next day
+the expression of assigning returns a reference but no name and is a lvalue
