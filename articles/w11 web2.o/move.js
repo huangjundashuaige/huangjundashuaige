@@ -65,8 +65,11 @@ function checkAndMove(e)
       {
             alert("you win!!!!!!!! its so amazing");
             flag=0;
-            innitialize();
+            $("#stopButton").html("its so hard let me pee first");
+            $("#startButton").html("lets getting started");
             clearInterval(clock);
+            $("#timeClock").html("time: "+"0"+":"+"00");
+            $("#step").html("steps: "+"0");
       }
      // var temp=listOfPic[0];
       /*switch(currentNumber-currentSpaceNumber)
