@@ -22,7 +22,7 @@ $(function()
             {
                   if(firstGodMod==1)
                   {
-                  alert("after you turn on the mode,you can select two pic in order,then it will switch their position just like 消消乐,please hit that button again");
+                  alert("you can select two pic in order,then it will switch their position just like 消消乐");
                   firstGodMod=0;
                   }
                   else
@@ -36,12 +36,6 @@ $(function()
                   {
                         flagForGodMod=0;
                         $(this).html("God Mod :OFF");
-                        firstDiv.animate
-                        (
-                              {
-                                    "border-radius":"0",
-                              },300
-                        );
                   }
                   }
             }
