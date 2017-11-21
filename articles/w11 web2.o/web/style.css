@@ -1,0 +1,176 @@
+html,body
+{
+    margin:0;
+    padding:0;
+    width: 100%;
+    height:100%;
+}
+#container 
+{
+    position: relative;
+    margin-left:auto;
+    margin-right:auto;
+    width:1000px;
+    height:700px;
+}
+#container>div 
+{
+    cursor: pointer;
+    display: inline-block;
+    vertical-align: middle;
+}
+#advanture
+{
+    margin:10px;
+    border: 3px solid red;
+    background-color: salmon;
+    border-radius:8px; 
+    box-shadow: 5px 5px 3px #aaaaaa;
+}
+#godMod
+{
+    margin:10px;
+    border: 3px solid ghostwhite;
+    background-color: gold;
+    border-radius:8px; 
+    box-shadow: 5px 5px 3px #aaaaaa;
+}
+body
+{
+    text-align: center;
+}
+#gameArea
+{
+
+    position: relative;
+    width:352px;
+    height:352px;
+    border: 5px solid silver;
+    margin:70px;
+}
+#example
+{
+    width: 105.9px;
+    height:105.9px;
+    border: 1px solid gray;
+}
+#example img
+{
+    max-width:105.9px;
+    max-height:105.9px;
+}
+#timeClock
+{
+}
+.Button
+{
+    cursor: pointer;
+    position: relative;
+    width: 150px;
+    height:50px;
+    background-color: burlywood;
+    border: 2px solid black;
+    border-radius:20px;
+    margin-top: 20px;
+    padding-top:20px;
+    box-shadow: 5px 5px 3px #aaaaaa;
+}
+#stopButton
+{
+   right:-50px;
+}
+#startOverButton
+{
+    visibility: hidden;
+    right:-100px;
+}
+.pic
+{
+    z-index: 999;
+    position: relative;
+    display: inline-block;
+    border: 1px solid black;
+    width: 24.8%;
+    height:25%;
+    margin:-2.5px;
+    background-image: url(./kongfuPanda.jpg);
+}
+.pic:hover
+{
+   border:1px solid gray;
+}
+#space
+{
+    display: inline-block;
+    border: 0px none white;
+    width: 25%;
+    height:25%;
+    margin:-2.5px;
+    margin-bottom: -1px;
+    background-image: none!important;
+}
+#pic-one
+{
+    background-position: 0% 0%;
+}
+#pic-two
+{
+    background-position: -100% 0%;
+}
+#pic-three
+{
+    background-position: -200% 0%;
+}
+#pic-four
+{
+    background-position: -300% 0%;
+}
+#pic-five
+{
+    background-position: 0% -100%;
+}
+#pic-six
+{
+    background-position: -100% -100%;
+}
+#pic-seven
+{
+    background-position: -200% -100%;
+}
+#pic-eight
+{
+    background-position: -300% -100%;
+}
+#pic-nine
+{
+    background-position: 0% -200%;
+}
+#pic-ten
+{
+    background-position: -100% -200%;
+}
+#pic-eleven
+{
+    background-position: -200% -200%;
+}
+#pic-twelve
+{
+    background-position: -300% -200%;
+}
+#pic-thirteen
+{
+    background-position: 0% -300%;
+}
+#pic-forteen
+{
+    background-position: -100% -300%;
+}
+#pic-fifteen
+{
+    background-position: -200% -300%;
+}
+
+.picked
+{
+    border-radius:10px; 
+}
