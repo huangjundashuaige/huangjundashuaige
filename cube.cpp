@@ -1,3 +1,5 @@
+#define GLEW_STATIC
+#define FREEGULT_STATIC
 #include<GL/freeglut.h>
 GLint width = 600,height = 600;
 void paint(void)
