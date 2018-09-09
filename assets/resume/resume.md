@@ -8,13 +8,13 @@ __githun page:
 ## Education
 - majar: software engineering
 
-- GPA 4.154/5 3.9/4 Ranking： 1/80
+- GPA: _4.154/5_ _3.9/4_ Ranking: _1/80_
 
 ## research interests
 - creative deep learning 
 architecture
 
-- low level aspect about deep learning
+- decentralized deep learning algorithm(decentralized sgd)
 
 - fun application of deep learning
 
