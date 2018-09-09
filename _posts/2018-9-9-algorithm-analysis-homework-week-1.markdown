@@ -1,5 +1,5 @@
 ---
-title: "algorithm-analysis-course-homework-week-one"
+title: "algorithm-analysis-course homework week one"
 layout: post
 date: 2018-09-9 17:22
 image: /assets/images/markdown.jpg
@@ -13,207 +13,99 @@ author: jun huang
 description: homework by doing some practice in leetcode
 ---
 
----
-title: "Markdown Common Elements"
-layout: post
-date: 2016-02-24 22:44
-image: /assets/images/markdown.jpg
-headerImage: false
-tag:
-- markdown
-- elements
-star: true
-category: blog
-author: johndoe
-description: Markdown summary with different options
----
+# homework week 1
+## first thing first
+![](./image/leetcode.png)
+since during the course we have to do a lot of quetion in leetcode,
 
-## Basic formatting
+so im wonder why not just doing something fun like the most popular quetions of all time
 
-This note **demonstrates** some of what [Markdown][1] is *capable of doing*.
+so here comes the first quetion
 
-And that's how to do it.
+```
+Given an array of integers, return indices of the two numbers such that they add up to a specific target.
 
-{% highlight html %}
-This note **demonstrates** some of what [Markdown][some/link] is *capable of doing*.
-{% endhighlight %}
+You may assume that each input would have exactly one solution, and you may not use the same element twice.
 
----
+Example:
 
-## Headings
+Given nums = [2, 7, 11, 15], target = 9,
 
-There are six levels of headings. They correspond with the six levels of HTML headings. You've probably noticed them already in the page. Each level down uses one more hash character. But we are using just 4 of them.
+Because nums[0] + nums[1] = 2 + 7 = 9,
+return [0, 1].
+```
 
-# Headings can be small
+which is a very basic quetion
 
-## Headings can be small
+but i still submit like ten times to pass it up.
 
-### Headings can be small
+```
 
-#### Headings can be small
+class Solution:
+    def twoSum(self, nums, target):
+        """
+        :type nums: List[int]
+        :type target: int
+        :rtype: List[int]
+        """
+        for a in range(len(nums)):
+            for b in range(a+1,len(nums)):
+                if(nums[a] is target-nums[b]):
+                    return [a,b]
+```
 
-{% highlight raw %}
-# Heading
-## Heading
-### Heading
-#### Heading
-{% endhighlight %}
+look very good inst it
 
----
+but it has a very critical mistake which i confuse the is operator with the ==,after checking some material i found out that is means it only works with the same obj instead of just the value is the same.
 
-## Lists
+but the == is just means the value of two obj is the same.
 
-### Ordered list
+### 2 linked list in python3
+```
+You are given two non-empty linked lists representing two non-negative integers. The digits are stored in reverse order and each of their nodes contain a single digit. Add the two numbers and return it as a linked list.
 
-1. Item 1
-2. A second item
-3. Number 3
+You may assume the two numbers do not contain any leading zero, except the number 0 itself.
 
-{% highlight raw %}
-1. Item 1
-2. A second item
-3. Number 3
-{% endhighlight %}
+Example:
 
-### Unordered list
+Input: (2 -> 4 -> 3) + (5 -> 6 -> 4)
+Output: 7 -> 0 -> 8
+Explanation: 342 + 465 = 807.
+```
 
-* An item
-* Another item
-* Yet another item
-* And there's more...
+easy one only need convert from linkedlist to number and from num to linkedlist
 
-{% highlight raw %}
-* An item
-* Another item
-* Yet another item
-* And there's more...
-{% endhighlight %}
+```
+# Definition for singly-linked list.
+# class ListNode:
+#     def __init__(self, x):
+#         self.val = x
+#         self.next = None
 
----
-
-## Paragraph modifiers
-
-### Quote
-
-> Here is a quote. What this is should be self explanatory. Quotes are automatically indented when they are used.
-
-{% highlight raw %}
-> Here is a quote. What this is should be self explanatory.
-{% endhighlight raw %}
-
----
-
-## URLs
-
-URLs can be made in a handful of ways:
-
-* A named link to [Mark It Down][3].
-* Another named link to [Mark It Down](http://markitdown.net/)
-* Sometimes you just want a URL like <http://markitdown.net/>.
-
-{% highlight raw %}
-* A named link to [MarkItDown][3].
-* Another named link to [MarkItDown](http://markitdown.net/)
-* Sometimes you just want a URL like <http://markitdown.net/>.
-{% endhighlight %}
-
----
-
-## Horizontal rule
-
-A horizontal rule is a line that goes across the middle of the page.
-It's sometimes handy for breaking things up.
-
-{% highlight raw %}
----
-{% endhighlight %}
-
----
-
-## Images
-
-Markdown can also contain images. I'll need to add something here sometime.
-
-{% highlight raw %}
-![Markdowm Image][/image/url]
-{% endhighlight %}
-
-![Markdowm Image][6]
-
-*Figure Caption*?
-
-{% highlight raw %}
-![Markdowm Image][/image/url]
-<figcaption class="caption">Photo by John Doe</figcaption>
-{% endhighlight %}
-
-![Markdowm Image][6]
-<figcaption class="caption">Photo by John Doe</figcaption>
-
-*Bigger Images*?
-
-{% highlight raw %}
-![Markdowm Image][/image/url]{: class="bigger-image" }
-{% endhighlight %}
-
-![Markdowm Image][6]{: class="bigger-image" }
-
----
-
-## Code
-
-A HTML Example:
-
-{% highlight html %}
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <title>Document</title>
-</head>
-<body>
-    <h1>Just a test</h1>
-</body>
-</html>
-{% endhighlight %}
-
-A CSS Example:
-
-{% highlight css %}
-pre {
-    padding: 10px;
-    font-size: .8em;
-    white-space: pre;
-}
-
-pre, table {
-    width: 100%;
-}
-
-code, pre, tt {
-    font-family: Monaco, Consolas, Inconsolata, monospace, sans-serif;
-    background: rgba(0,0,0,.05);
-}
-{% endhighlight %}
-
-A JS Example:
-
-{% highlight js %}
-// Sticky Header
-$(window).scroll(function() {
-
-    if ($(window).scrollTop() > 900 && !$("body").hasClass('show-menu')) {
-        $('#hamburguer__open').fadeOut('fast');
-    } else if (!$("body").hasClass('show-menu')) {
-        $('#hamburguer__open').fadeIn('fast');
-    }
-
-});
-{% endhighlight %}
-
-[1]: http://daringfireball.net/projects/markdown/
-[2]: http://www.fileformat.info/info/unicode/char/2163/index.htm
-[3]: http://www.markitdown.net/
-[4]: http://daringfireball.net/projects/markdown/basics
-[5]: http://daringfireball.net/projects/markdown/syntax
-[6]: http://kune.fr/wp-content/uploads/2013/10/ghost-blog.jpg
+class Solution:
+    def num2listNode(self,num):
+        start = listNode = ListNode(num%10)
+        num = num // 10
+        while(num != 0):
+            listNode.next = ListNode(num%10)
+            listNode = listNode.next
+            num = num // 10
+        return start 
+    def addTwoNumbers(self, l1, l2):
+        """
+        :type l1: ListNode
+        :type l2: ListNode
+        :rtype: ListNode
+        """
+        return self.num2listNode(self.listNode2num(l1)+self.listNode2num(l2))
+    def listNode2num(self,listNode):
+        index = 0
+        target = 0
+        while(not listNode == None):
+            target = target + listNode.val*(10**index)
+            index = index +  1
+            listNode = listNode.next
+        return target
+```
+but as for effiency,it sucks
+![](./image/linkedlist.png)
