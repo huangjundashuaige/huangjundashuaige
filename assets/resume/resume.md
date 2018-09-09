@@ -1,4 +1,4 @@
-# 黄俊
+# Jun Huang
 ---
 __schoold of data and computer science,Sun-yet-sen university__
 
@@ -8,7 +8,7 @@ __githun page:
 ## Education
 - majar: software engineering
 
-- GPA 4.206/5 Ranking：0.67%
+- GPA 4.154/5 3.9/4 Ranking： 1/80
 
 ## research interests
 - creative deep learning 
