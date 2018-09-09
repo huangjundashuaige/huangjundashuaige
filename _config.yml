@@ -14,9 +14,9 @@ picture: assets/images/me.jpg
 # and specify source (external or local).
 resume: true
 resume-external: true
-resume-url: https://google.com/?q=my+resume
+resume-url: http://huangjundashuaige.me/
 
-url: https://huangjundashuaige.me/
+url: http://huangjundashuaige.me/
 # your url: http://USERNAME.github.io
 
 permalink: /:title/
