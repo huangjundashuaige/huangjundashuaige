@@ -1,7 +1,7 @@
 ---
-title: "some key factor to build a private cloud"
+title: "algorithm-analysis-course homework week two"
 layout: post
-date: 2018-09-15 17:22
+date: 2018-09-21 17:22
 image: /assets/images/markdown.jpg
 headerImage: false
 tag:
@@ -10,7 +10,7 @@ tag:
 star: true
 category: blog
 author: jun huang
-description: homework for service computing
+description: homework for algorithm analysis
 ---
 
 # Longest Palindromic Substring
