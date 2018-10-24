@@ -1,5 +1,5 @@
 ---
-title: "algorithm-analysis-course homework week seven"
+title: "algorithm-analysis-course homework week sevem"
 layout: post
 date: 2018-10-21 17:22
 image: /assets/images/markdown.jpg
