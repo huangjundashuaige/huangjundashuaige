@@ -1,7 +1,7 @@
 ---
 title: "algorithm-analysis-course homework week six"
 layout: post
-date: 2018-10-213 17:22
+date: 2018-10-13 17:22
 image: /assets/images/markdown.jpg
 headerImage: false
 tag:
