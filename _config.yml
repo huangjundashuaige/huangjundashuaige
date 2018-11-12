@@ -16,7 +16,7 @@ resume: true
 resume-external: false
 resume-url: assets/resume/resume.md
 
-url: http://huangjundashuaige.me
+url: http://huangjundashuaige.com
 # your url: http://USERNAME.github.io
 
 permalink: /:title/
