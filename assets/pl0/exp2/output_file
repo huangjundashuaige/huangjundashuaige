@@ -1,0 +1,6 @@
+    0 var  x, y;
+    1 begin 
+    2     read(x);read(y);
+    4     write(x,y);
+    8     write(x,y);
+   12 end.
