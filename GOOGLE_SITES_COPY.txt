@@ -1,0 +1,50 @@
+Jun Huang
+ML Systems Researcher | Ph.D., The Ohio State University
+
+ABOUT
+I study how to make machine learning training and inference more efficient at scale. My research focuses on distributed multimodal model training, computation–communication co-design, and accelerated video generation inference.
+
+I received my Ph.D. in Computer Science from The Ohio State University, advised by Prof. Feng Qin. My research experience includes Amazon Web Services and Microsoft Research Asia.
+
+Email: huang.4126@osu.edu
+CV: Upload Jun_Huang_CV.pdf to Google Drive and insert a public-viewable link here.
+
+SELECTED RESEARCH & PUBLICATIONS
+
+DISTMM — NSDI 2024
+DISTMM: Accelerating Distributed Multimodal Model Training
+A distributed training system for multimodal models, using modality-aware parallelization, load balancing, and topology-aware placement. DISTMM-Pipe addresses the interaction-batch-size limitation of conventional pipeline parallelism for contrastive learning.
+Paper: https://www.usenix.org/conference/nsdi24/presentation/huang
+
+CoCoNet — ASPLOS 2022
+Breaking the Computation and Communication Abstraction Barrier in Distributed Machine Learning Workloads
+A framework for generating fused computation and communication kernels to overlap collective operations with pointwise computation and reductions. This work was integrated into MSCCL and deployed in Azure.
+Paper: https://arxiv.org/abs/2105.05720
+
+LOCA — Under submission, 2026
+LOCA: Accelerating Video Generation with the Localities in Diffusion
+Accelerates video diffusion inference by combining cross-frame and cross-step locality optimizations with an adaptive, learning-based fusion strategy and a compatible execution schedule.
+
+RESEARCH & INDUSTRY EXPERIENCE
+
+Amazon Web Services — Research Intern | 2024
+Video diffusion inference acceleration and scheduling.
+
+Amazon Web Services — Research Intern | 2022, 2023
+Scalable distributed multimodal model training (DISTMM).
+
+Microsoft Research Asia — Research Intern | 2021
+MSCCL and computation–communication co-design (CoCoNet).
+
+ByteDance AI Lab — Software Development Intern | 2020–2021
+Distributed training framework supporting 3D parallelism.
+
+EDUCATION
+
+Ph.D. in Computer Science | The Ohio State University | 2021–2026
+Advisor: Prof. Feng Qin
+
+B.Sc. in Software Engineering | Sun Yat-sen University | 2016–2020
+
+CONTACT
+huang.4126@osu.edu

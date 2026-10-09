@@ -1,0 +1,135 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Jun Huang: machine learning systems researcher working on distributed multimodal training, computation-communication co-design, and efficient video generation inference.">
+  <meta name="theme-color" content="#ffffff">
+  <title>Jun Huang — ML Systems Research</title>
+  <style>
+    :root { color-scheme: light; --ink:#222b37; --muted:#5b6673; --border:#dfe4e8; --link:#215e88; --paper:#fff; }
+    * { box-sizing: border-box; }
+    html { scroll-behavior: smooth; }
+    body { margin:0; font-family: ui-sans-serif,-apple-system,BlinkMacSystemFont,"Segoe UI",Arial,sans-serif; font-size:16px; line-height:1.72; background:var(--paper); color:var(--ink); -webkit-font-smoothing:antialiased; }
+    a { color:var(--link); text-decoration:none; text-underline-offset:3px; }
+    a:hover, a:focus-visible { text-decoration:underline; }
+    a:focus-visible { outline:2px solid var(--link); outline-offset:4px; border-radius:2px; }
+    .wrap { max-width:916px; padding:0 36px; margin:0 auto; }
+    .topbar { border-bottom:1px solid var(--border); }
+    .topbar .wrap { min-height:76px; display:flex; justify-content:space-between; align-items:center; gap:20px; }
+    .brand { font-size:16px; font-weight:700; letter-spacing:-.01em; color:var(--ink); }
+    nav { display:flex; flex-wrap:wrap; gap:24px; }
+    nav a { color:var(--muted); font-size:14px; font-weight:550; }
+    .intro { display:grid; grid-template-columns:minmax(0,1fr) 172px; gap:58px; padding:76px 0 56px; align-items:start; }
+    h1 { font-size:44px; font-weight:730; letter-spacing:-.043em; line-height:1.15; margin:0 0 13px; }
+    .tagline { color:var(--muted); font-size:17px; margin:0 0 21px; line-height:1.5; }
+    .intro p:not(.tagline) { font-size:17px; margin:0 0 16px; max-width:645px; }
+    .quick-links { display:flex; gap:18px; align-items:center; margin-top:22px; font-size:15px; }
+    .portrait { width:172px; height:195px; object-fit:cover; object-position:50% 26%; border-radius:3px; display:block; }
+    section { padding:32px 0 27px; border-top:1px solid var(--border); scroll-margin-top:20px; }
+    section h2 { font-size:21px; font-weight:710; letter-spacing:-.025em; margin:0 0 23px; }
+    .work { margin:0 0 24px; }
+    .work:last-child { margin-bottom:0; }
+    .workline { display:flex; flex-wrap:wrap; align-items:baseline; justify-content:space-between; gap:4px 20px; }
+    h3 { font-weight:700; font-size:16px; line-height:1.5; margin:0; }
+    .venue { color:var(--muted); font-size:14px; white-space:nowrap; }
+    .paper-title { margin:4px 0 2px; font-size:15.5px; }
+    .work p:last-child { margin:7px 0 0; color:#3e4853; font-size:15.5px; }
+    .work .details { margin:4px 0 0; }
+    .roles { display:grid; gap:16px; }
+    .role { display:grid; grid-template-columns:1fr auto; column-gap:20px; }
+    .role-title { font-size:15.5px; font-weight:650; }
+    .role-time { font-size:14px; color:var(--muted); white-space:nowrap; }
+    .role-sub { grid-column:1/-1; font-size:14.5px; color:#505a66; }
+    .edu { display:grid; gap:13px; }
+    .edu-item { display:flex; flex-wrap:wrap; justify-content:space-between; gap:3px 20px; font-size:15.5px; }
+    .edu-item .secondary { color:var(--muted); }
+    .contact { padding-bottom:54px; }
+    .contact p { margin:0; }
+    footer { border-top:1px solid var(--border); color:#78838d; font-size:13px; padding:22px 0 33px; }
+    @media (max-width:690px) {
+      .wrap { padding:0 22px; }
+      .topbar .wrap { align-items:flex-start; flex-direction:column; gap:7px; justify-content:center; padding-top:14px; padding-bottom:14px; }
+      nav { gap:15px; }
+      .intro { padding-top:42px; padding-bottom:34px; grid-template-columns:1fr 104px; gap:20px; }
+      h1 { font-size:33px; }
+      .tagline { font-size:15px; }
+      .intro p:not(.tagline) { font-size:15.5px; }
+      .portrait { width:104px; height:128px; }
+      .role { grid-template-columns:1fr; }
+      .role-time { margin-top:1px; }
+      .role-sub { margin-top:2px; }
+    }
+    @media (max-width:410px) {
+      .intro { grid-template-columns:1fr; }
+      .portrait { grid-row:1; width:100px; height:116px; }
+      .venue { white-space:normal; }
+    }
+    @media (prefers-reduced-motion:reduce) { html { scroll-behavior:auto; } }
+    @media print { nav,.quick-links { display:none; } .intro { padding-top:28px; } a { color:inherit; } }
+  </style>
+</head>
+<body>
+  <header class="topbar"><div class="wrap">
+    <a class="brand" href="#top">Jun Huang</a>
+    <nav aria-label="Main navigation">
+      <a href="#research">Research</a><a href="#experience">Experience</a><a href="#education">Education</a><a href="#contact">Contact</a>
+    </nav>
+  </div></header>
+  <main id="top" class="wrap">
+    <div class="intro">
+      <div>
+        <h1>Jun Huang</h1>
+        <p class="tagline">ML Systems Researcher · Ph.D., The Ohio State University</p>
+        <p>I study how to make machine learning training and inference more efficient at scale. My research focuses on distributed multimodal model training, computation–communication co-design, and accelerated video generation inference.</p>
+        <p>I received my Ph.D. in Computer Science from The Ohio State University, advised by Prof. Feng Qin. My research experience includes Amazon Web Services and Microsoft Research Asia.</p>
+        <div class="quick-links"><a href="mailto:huang.4126@osu.edu">Email</a><a href="assets/Jun_Huang_CV.pdf" target="_blank" rel="noopener">CV (PDF)</a></div>
+      </div>
+      <img class="portrait" src="assets/portrait.jpg" alt="Portrait of Jun Huang" width="172" height="195">
+    </div>
+
+    <section id="research" aria-labelledby="research-title">
+      <h2 id="research-title">Selected Research &amp; Publications</h2>
+      <article class="work">
+        <div class="workline"><h3>DISTMM</h3><span class="venue">NSDI 2024</span></div>
+        <p class="paper-title"><a href="https://www.usenix.org/conference/nsdi24/presentation/huang" target="_blank" rel="noopener">DISTMM: Accelerating Distributed Multimodal Model Training ↗</a></p>
+        <p>A distributed training system for multimodal models, using modality-aware parallelization, load balancing, and topology-aware placement. DISTMM-Pipe addresses the interaction-batch-size limitation of conventional pipeline parallelism for contrastive learning.</p>
+      </article>
+      <article class="work">
+        <div class="workline"><h3>CoCoNet</h3><span class="venue">ASPLOS 2022</span></div>
+        <p class="paper-title"><a href="https://arxiv.org/abs/2105.05720" target="_blank" rel="noopener">Breaking the Computation and Communication Abstraction Barrier in Distributed Machine Learning Workloads ↗</a></p>
+        <p>A framework for generating fused computation and communication kernels to overlap collective operations with pointwise computation and reductions. This work was integrated into MSCCL and deployed in Azure.</p>
+      </article>
+      <article class="work">
+        <div class="workline"><h3>LOCA</h3><span class="venue">Under submission · 2026</span></div>
+        <p class="paper-title">LOCA: Accelerating Video Generation with the Localities in Diffusion</p>
+        <p>Accelerates video diffusion inference by combining cross-frame and cross-step locality optimizations with an adaptive, learning-based fusion strategy and a compatible execution schedule.</p>
+      </article>
+    </section>
+
+    <section id="experience" aria-labelledby="experience-title">
+      <h2 id="experience-title">Research &amp; Industry Experience</h2>
+      <div class="roles">
+        <div class="role"><span class="role-title">Amazon Web Services · Research Intern</span><span class="role-time">2024</span><span class="role-sub">Video diffusion inference acceleration and scheduling.</span></div>
+        <div class="role"><span class="role-title">Amazon Web Services · Research Intern</span><span class="role-time">2022, 2023</span><span class="role-sub">Scalable distributed multimodal model training (DISTMM).</span></div>
+        <div class="role"><span class="role-title">Microsoft Research Asia · Research Intern</span><span class="role-time">2021</span><span class="role-sub">MSCCL and computation–communication co-design (CoCoNet).</span></div>
+        <div class="role"><span class="role-title">ByteDance AI Lab · Software Development Intern</span><span class="role-time">2020–2021</span><span class="role-sub">Distributed training framework supporting 3D parallelism.</span></div>
+      </div>
+    </section>
+
+    <section id="education" aria-labelledby="education-title">
+      <h2 id="education-title">Education</h2>
+      <div class="edu">
+        <div class="edu-item"><div><strong>Ph.D. in Computer Science</strong><div class="secondary">The Ohio State University · Advisor: Prof. Feng Qin</div></div><span class="venue">2021–2026</span></div>
+        <div class="edu-item"><div><strong>B.Sc. in Software Engineering</strong><div class="secondary">Sun Yat-sen University</div></div><span class="venue">2016–2020</span></div>
+      </div>
+    </section>
+    <section class="contact" id="contact" aria-labelledby="contact-title">
+      <h2 id="contact-title">Contact</h2>
+      <p>Email: <a href="mailto:huang.4126@osu.edu">huang.4126@osu.edu</a></p>
+      <p><a href="assets/Jun_Huang_CV.pdf" target="_blank" rel="noopener">Download CV (PDF) ↗</a></p>
+    </section>
+  </main>
+  <footer><div class="wrap">Jun Huang · Research in machine learning systems</div></footer>
+</body>
+</html>
